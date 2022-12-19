@@ -12,6 +12,7 @@ set(EXECUTABLES
     read_columns 
     create_table_insert_values
     get_table_names
+    prepare_statements
 )
 
 # generate executables
