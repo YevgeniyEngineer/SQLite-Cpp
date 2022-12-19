@@ -8,7 +8,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED true)
 find_package(SQLiteCpp)
 
 # set executables
-set(EXECUTABLES read_columns create_table_insert_values)
+set(EXECUTABLES 
+    read_columns 
+    create_table_insert_values
+    get_table_names
+)
 
 # generate executables
 foreach(EXECUTABLE ${EXECUTABLES})
